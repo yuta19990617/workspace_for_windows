@@ -1,0 +1,669 @@
+2023-07-01 10:43:41,629 15656 [DEBUG] - XmlConfiguration is now operational
+2023-07-01 10:43:41,653 15656 [DEBUG] - Adding new type 'CygwinService' for type 'IAlternativeSourceRunner' from assembly 'choco'
+2023-07-01 10:43:41,653 15656 [DEBUG] - Adding new type 'CygwinService' for type 'IInstallSourceRunner' from assembly 'choco'
+2023-07-01 10:43:41,654 15656 [DEBUG] - Adding new type 'PythonService' for type 'IAlternativeSourceRunner' from assembly 'choco'
+2023-07-01 10:43:41,654 15656 [DEBUG] - Adding new type 'PythonService' for type 'IListSourceRunner' from assembly 'choco'
+2023-07-01 10:43:41,655 15656 [DEBUG] - Adding new type 'PythonService' for type 'IInstallSourceRunner' from assembly 'choco'
+2023-07-01 10:43:41,655 15656 [DEBUG] - Adding new type 'PythonService' for type 'IUninstallSourceRunner' from assembly 'choco'
+2023-07-01 10:43:41,656 15656 [DEBUG] - Adding new type 'RubyGemsService' for type 'IAlternativeSourceRunner' from assembly 'choco'
+2023-07-01 10:43:41,656 15656 [DEBUG] - Adding new type 'RubyGemsService' for type 'IListSourceRunner' from assembly 'choco'
+2023-07-01 10:43:41,656 15656 [DEBUG] - Adding new type 'RubyGemsService' for type 'IInstallSourceRunner' from assembly 'choco'
+2023-07-01 10:43:41,657 15656 [DEBUG] - Adding new type 'SystemStateValidation' for type 'IValidation' from assembly 'choco'
+2023-07-01 10:43:41,819 15656 [DEBUG] - Adding new type 'EmptyOrInvalidUrlMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:43:41,820 15656 [DEBUG] - Adding new type 'FrameWorkReferencesMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:43:41,820 15656 [DEBUG] - Adding new type 'IconMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:43:41,821 15656 [DEBUG] - Adding new type 'LicenseMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:43:41,821 15656 [DEBUG] - Adding new type 'PackageTypesMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:43:41,822 15656 [DEBUG] - Adding new type 'ReadmeMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:43:41,822 15656 [DEBUG] - Adding new type 'RepositoryMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:43:41,822 15656 [DEBUG] - Adding new type 'RequireLicenseAcceptanceMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:43:41,823 15656 [DEBUG] - Adding new type 'ServicableMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:43:41,823 15656 [DEBUG] - Adding new type 'VersionMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:43:41,827 15656 [DEBUG] - Registering new command 'cache' in assembly 'choco'
+2023-07-01 10:43:41,827 15656 [DEBUG] - Registering new command 'list' in assembly 'choco'
+2023-07-01 10:43:41,828 15656 [DEBUG] - Registering new command 'template' in assembly 'choco'
+2023-07-01 10:43:41,828 15656 [DEBUG] - Registering new command 'export' in assembly 'choco'
+2023-07-01 10:43:41,828 15656 [DEBUG] - Registering new command 'info' in assembly 'choco'
+2023-07-01 10:43:41,829 15656 [DEBUG] - Registering new command 'help' in assembly 'choco'
+2023-07-01 10:43:41,829 15656 [DEBUG] - Registering new command 'config' in assembly 'choco'
+2023-07-01 10:43:41,830 15656 [DEBUG] - Registering new command 'feature' in assembly 'choco'
+2023-07-01 10:43:41,830 15656 [DEBUG] - Registering new command 'new' in assembly 'choco'
+2023-07-01 10:43:41,831 15656 [DEBUG] - Registering new command 'outdated' in assembly 'choco'
+2023-07-01 10:43:41,831 15656 [DEBUG] - Registering new command 'pack' in assembly 'choco'
+2023-07-01 10:43:41,831 15656 [DEBUG] - Registering new command 'pin' in assembly 'choco'
+2023-07-01 10:43:41,831 15656 [DEBUG] - Registering new command 'push' in assembly 'choco'
+2023-07-01 10:43:41,833 15656 [DEBUG] - Registering new command 'apikey' in assembly 'choco'
+2023-07-01 10:43:41,833 15656 [DEBUG] - Registering new command 'source' in assembly 'choco'
+2023-07-01 10:43:41,834 15656 [DEBUG] - Registering new command 'uninstall' in assembly 'choco'
+2023-07-01 10:43:41,834 15656 [DEBUG] - Registering new command 'upgrade' in assembly 'choco'
+2023-07-01 10:43:41,834 15656 [DEBUG] - Registering new command 'search' in assembly 'choco'
+2023-07-01 10:43:41,835 15656 [DEBUG] - Registering new command 'unpackself' in assembly 'choco'
+2023-07-01 10:43:41,835 15656 [DEBUG] - Registering new command 'install' in assembly 'choco'
+2023-07-01 10:43:41,840 15656 [DEBUG] - Attempting to create directory "C:\ProgramData\chocolatey\config".
+2023-07-01 10:43:41,891 15656 [INFO ] - ============================================================
+2023-07-01 10:43:42,105 15656 [DEBUG] - Attempting to replace "C:\ProgramData\chocolatey\config\chocolatey.config"
+ with "C:\ProgramData\chocolatey\config\chocolatey.config.15656.update".
+ Backup placed at "C:\ProgramData\chocolatey\config\chocolatey.config.backup".
+2023-07-01 10:43:42,107 15656 [DEBUG] - Attempting to copy "C:\ProgramData\chocolatey\config\chocolatey.config.15656.update"
+ to "C:\ProgramData\chocolatey\config\chocolatey.config".
+2023-07-01 10:43:42,109 15656 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\config\chocolatey.config.15656.update".
+2023-07-01 10:43:42,111 15656 [INFO ] - 2.1.0
+2023-07-01 10:43:42,111 15656 [DEBUG] - Exiting with 0
+2023-07-01 10:45:30,966 27956 [DEBUG] - XmlConfiguration is now operational
+2023-07-01 10:45:30,987 27956 [DEBUG] - Adding new type 'CygwinService' for type 'IAlternativeSourceRunner' from assembly 'choco'
+2023-07-01 10:45:30,990 27956 [DEBUG] - Adding new type 'CygwinService' for type 'IInstallSourceRunner' from assembly 'choco'
+2023-07-01 10:45:30,992 27956 [DEBUG] - Adding new type 'PythonService' for type 'IAlternativeSourceRunner' from assembly 'choco'
+2023-07-01 10:45:30,993 27956 [DEBUG] - Adding new type 'PythonService' for type 'IListSourceRunner' from assembly 'choco'
+2023-07-01 10:45:30,994 27956 [DEBUG] - Adding new type 'PythonService' for type 'IInstallSourceRunner' from assembly 'choco'
+2023-07-01 10:45:30,994 27956 [DEBUG] - Adding new type 'PythonService' for type 'IUninstallSourceRunner' from assembly 'choco'
+2023-07-01 10:45:30,995 27956 [DEBUG] - Adding new type 'RubyGemsService' for type 'IAlternativeSourceRunner' from assembly 'choco'
+2023-07-01 10:45:30,995 27956 [DEBUG] - Adding new type 'RubyGemsService' for type 'IListSourceRunner' from assembly 'choco'
+2023-07-01 10:45:30,995 27956 [DEBUG] - Adding new type 'RubyGemsService' for type 'IInstallSourceRunner' from assembly 'choco'
+2023-07-01 10:45:30,996 27956 [DEBUG] - Adding new type 'SystemStateValidation' for type 'IValidation' from assembly 'choco'
+2023-07-01 10:45:31,141 27956 [DEBUG] - Adding new type 'EmptyOrInvalidUrlMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:45:31,146 27956 [DEBUG] - Adding new type 'FrameWorkReferencesMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:45:31,152 27956 [DEBUG] - Adding new type 'IconMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:45:31,153 27956 [DEBUG] - Adding new type 'LicenseMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:45:31,154 27956 [DEBUG] - Adding new type 'PackageTypesMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:45:31,154 27956 [DEBUG] - Adding new type 'ReadmeMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:45:31,155 27956 [DEBUG] - Adding new type 'RepositoryMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:45:31,156 27956 [DEBUG] - Adding new type 'RequireLicenseAcceptanceMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:45:31,156 27956 [DEBUG] - Adding new type 'ServicableMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:45:31,157 27956 [DEBUG] - Adding new type 'VersionMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:45:31,160 27956 [DEBUG] - Registering new command 'cache' in assembly 'choco'
+2023-07-01 10:45:31,161 27956 [DEBUG] - Registering new command 'list' in assembly 'choco'
+2023-07-01 10:45:31,161 27956 [DEBUG] - Registering new command 'template' in assembly 'choco'
+2023-07-01 10:45:31,162 27956 [DEBUG] - Registering new command 'export' in assembly 'choco'
+2023-07-01 10:45:31,163 27956 [DEBUG] - Registering new command 'info' in assembly 'choco'
+2023-07-01 10:45:31,164 27956 [DEBUG] - Registering new command 'help' in assembly 'choco'
+2023-07-01 10:45:31,164 27956 [DEBUG] - Registering new command 'config' in assembly 'choco'
+2023-07-01 10:45:31,165 27956 [DEBUG] - Registering new command 'feature' in assembly 'choco'
+2023-07-01 10:45:31,165 27956 [DEBUG] - Registering new command 'new' in assembly 'choco'
+2023-07-01 10:45:31,165 27956 [DEBUG] - Registering new command 'outdated' in assembly 'choco'
+2023-07-01 10:45:31,165 27956 [DEBUG] - Registering new command 'pack' in assembly 'choco'
+2023-07-01 10:45:31,166 27956 [DEBUG] - Registering new command 'pin' in assembly 'choco'
+2023-07-01 10:45:31,166 27956 [DEBUG] - Registering new command 'push' in assembly 'choco'
+2023-07-01 10:45:31,167 27956 [DEBUG] - Registering new command 'apikey' in assembly 'choco'
+2023-07-01 10:45:31,167 27956 [DEBUG] - Registering new command 'source' in assembly 'choco'
+2023-07-01 10:45:31,168 27956 [DEBUG] - Registering new command 'uninstall' in assembly 'choco'
+2023-07-01 10:45:31,168 27956 [DEBUG] - Registering new command 'upgrade' in assembly 'choco'
+2023-07-01 10:45:31,168 27956 [DEBUG] - Registering new command 'search' in assembly 'choco'
+2023-07-01 10:45:31,169 27956 [DEBUG] - Registering new command 'unpackself' in assembly 'choco'
+2023-07-01 10:45:31,169 27956 [DEBUG] - Registering new command 'install' in assembly 'choco'
+2023-07-01 10:45:31,208 27956 [INFO ] - ============================================================
+2023-07-01 10:45:31,421 27956 [INFO ] - Chocolatey v2.1.0
+2023-07-01 10:45:31,427 27956 [DEBUG] - Chocolatey is running on Windows v 10.0.22621.0
+2023-07-01 10:45:31,431 27956 [DEBUG] - Attempting to delete file "C:/ProgramData/chocolatey/choco.exe.old".
+2023-07-01 10:45:31,433 27956 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\choco.exe.old".
+2023-07-01 10:45:31,436 27956 [DEBUG] - Command line: "C:\ProgramData\chocolatey\choco.exe" list -l
+2023-07-01 10:45:31,436 27956 [DEBUG] - Received arguments: list -l
+2023-07-01 10:45:31,457 27956 [DEBUG] - RemovePendingPackagesTask is now ready and waiting for PreRunMessage.
+2023-07-01 10:45:31,461 27956 [DEBUG] - Sending message 'PreRunMessage' out if there are subscribers...
+2023-07-01 10:45:31,464 27956 [DEBUG] - [Pending] Removing all pending packages that should not be considered installed...
+2023-07-01 10:45:31,485 27956 [DEBUG] - Sending message 'PostRunMessage' out if there are subscribers...
+2023-07-01 10:45:31,487 27956 [ERROR] - Invalid argument -l. This argument has been removed from the list command and cannot be used.
+2023-07-01 10:45:31,487 27956 [ERROR] - More Details: System.ApplicationException: Invalid argument -l. This argument has been removed from the list command and cannot be used.
+   èÍèä chocolatey.infrastructure.app.commands.ChocolateyListCommand.ParseAdditionalArguments(IList`1 unparsedArguments, ChocolateyConfiguration configuration)
+   èÍèä chocolatey.infrastructure.app.runners.ConsoleApplication.<>c__DisplayClass0_1.<Run>b__5(IList`1 unparsedArgs)
+   èÍèä chocolatey.infrastructure.app.configuration.ConfigurationOptions.ParseArgumentsAndUpdateConfiguration(ICollection`1 args, ChocolateyConfiguration configuration, Action`1 setOptions, Action`1 afterParse, Action validateConfiguration, Action helpMessage)
+   èÍèä chocolatey.infrastructure.app.runners.ConsoleApplication.<>c__DisplayClass0_0.<Run>b__3(ICommand command)
+   èÍèä chocolatey.infrastructure.app.runners.GenericRunner.FindCommand(ChocolateyConfiguration config, Container container, Boolean isConsole, Action`1 parseArgs)
+   èÍèä chocolatey.infrastructure.app.runners.GenericRunner.Run(ChocolateyConfiguration config, Container container, Boolean isConsole, Action`1 parseArgs)
+   èÍèä chocolatey.infrastructure.app.runners.ConsoleApplication.Run(String[] args, ChocolateyConfiguration config, Container container)
+   èÍèä chocolatey.console.Program.Main(String[] args)
+2023-07-01 10:45:31,488 27956 [DEBUG] - Exiting with 1
+2023-07-01 10:46:18,164 21332 [DEBUG] - XmlConfiguration is now operational
+2023-07-01 10:46:18,186 21332 [DEBUG] - Adding new type 'CygwinService' for type 'IAlternativeSourceRunner' from assembly 'choco'
+2023-07-01 10:46:18,189 21332 [DEBUG] - Adding new type 'CygwinService' for type 'IInstallSourceRunner' from assembly 'choco'
+2023-07-01 10:46:18,191 21332 [DEBUG] - Adding new type 'PythonService' for type 'IAlternativeSourceRunner' from assembly 'choco'
+2023-07-01 10:46:18,199 21332 [DEBUG] - Adding new type 'PythonService' for type 'IListSourceRunner' from assembly 'choco'
+2023-07-01 10:46:18,199 21332 [DEBUG] - Adding new type 'PythonService' for type 'IInstallSourceRunner' from assembly 'choco'
+2023-07-01 10:46:18,199 21332 [DEBUG] - Adding new type 'PythonService' for type 'IUninstallSourceRunner' from assembly 'choco'
+2023-07-01 10:46:18,199 21332 [DEBUG] - Adding new type 'RubyGemsService' for type 'IAlternativeSourceRunner' from assembly 'choco'
+2023-07-01 10:46:18,200 21332 [DEBUG] - Adding new type 'RubyGemsService' for type 'IListSourceRunner' from assembly 'choco'
+2023-07-01 10:46:18,200 21332 [DEBUG] - Adding new type 'RubyGemsService' for type 'IInstallSourceRunner' from assembly 'choco'
+2023-07-01 10:46:18,201 21332 [DEBUG] - Adding new type 'SystemStateValidation' for type 'IValidation' from assembly 'choco'
+2023-07-01 10:46:18,346 21332 [DEBUG] - Adding new type 'EmptyOrInvalidUrlMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:46:18,349 21332 [DEBUG] - Adding new type 'FrameWorkReferencesMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:46:18,352 21332 [DEBUG] - Adding new type 'IconMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:46:18,354 21332 [DEBUG] - Adding new type 'LicenseMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:46:18,354 21332 [DEBUG] - Adding new type 'PackageTypesMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:46:18,355 21332 [DEBUG] - Adding new type 'ReadmeMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:46:18,355 21332 [DEBUG] - Adding new type 'RepositoryMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:46:18,356 21332 [DEBUG] - Adding new type 'RequireLicenseAcceptanceMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:46:18,356 21332 [DEBUG] - Adding new type 'ServicableMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:46:18,356 21332 [DEBUG] - Adding new type 'VersionMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:46:18,360 21332 [DEBUG] - Registering new command 'cache' in assembly 'choco'
+2023-07-01 10:46:18,361 21332 [DEBUG] - Registering new command 'list' in assembly 'choco'
+2023-07-01 10:46:18,361 21332 [DEBUG] - Registering new command 'template' in assembly 'choco'
+2023-07-01 10:46:18,362 21332 [DEBUG] - Registering new command 'export' in assembly 'choco'
+2023-07-01 10:46:18,362 21332 [DEBUG] - Registering new command 'info' in assembly 'choco'
+2023-07-01 10:46:18,362 21332 [DEBUG] - Registering new command 'help' in assembly 'choco'
+2023-07-01 10:46:18,363 21332 [DEBUG] - Registering new command 'config' in assembly 'choco'
+2023-07-01 10:46:18,363 21332 [DEBUG] - Registering new command 'feature' in assembly 'choco'
+2023-07-01 10:46:18,364 21332 [DEBUG] - Registering new command 'new' in assembly 'choco'
+2023-07-01 10:46:18,364 21332 [DEBUG] - Registering new command 'outdated' in assembly 'choco'
+2023-07-01 10:46:18,365 21332 [DEBUG] - Registering new command 'pack' in assembly 'choco'
+2023-07-01 10:46:18,365 21332 [DEBUG] - Registering new command 'pin' in assembly 'choco'
+2023-07-01 10:46:18,366 21332 [DEBUG] - Registering new command 'push' in assembly 'choco'
+2023-07-01 10:46:18,366 21332 [DEBUG] - Registering new command 'apikey' in assembly 'choco'
+2023-07-01 10:46:18,366 21332 [DEBUG] - Registering new command 'source' in assembly 'choco'
+2023-07-01 10:46:18,367 21332 [DEBUG] - Registering new command 'uninstall' in assembly 'choco'
+2023-07-01 10:46:18,367 21332 [DEBUG] - Registering new command 'upgrade' in assembly 'choco'
+2023-07-01 10:46:18,367 21332 [DEBUG] - Registering new command 'search' in assembly 'choco'
+2023-07-01 10:46:18,368 21332 [DEBUG] - Registering new command 'unpackself' in assembly 'choco'
+2023-07-01 10:46:18,368 21332 [DEBUG] - Registering new command 'install' in assembly 'choco'
+2023-07-01 10:46:18,408 21332 [INFO ] - ============================================================
+2023-07-01 10:46:18,620 21332 [INFO ] - Chocolatey v2.1.0
+2023-07-01 10:46:18,628 21332 [DEBUG] - Chocolatey is running on Windows v 10.0.22621.0
+2023-07-01 10:46:18,631 21332 [DEBUG] - Attempting to delete file "C:/ProgramData/chocolatey/choco.exe.old".
+2023-07-01 10:46:18,636 21332 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\choco.exe.old".
+2023-07-01 10:46:18,640 21332 [DEBUG] - Command line: "C:\ProgramData\chocolatey\choco.exe" list
+2023-07-01 10:46:18,641 21332 [DEBUG] - Received arguments: list
+2023-07-01 10:46:18,661 21332 [DEBUG] - RemovePendingPackagesTask is now ready and waiting for PreRunMessage.
+2023-07-01 10:46:18,664 21332 [DEBUG] - Sending message 'PreRunMessage' out if there are subscribers...
+2023-07-01 10:46:18,668 21332 [DEBUG] - [Pending] Removing all pending packages that should not be considered installed...
+2023-07-01 10:46:18,687 21332 [DEBUG] - Performing validation checks.
+2023-07-01 10:46:18,689 21332 [DEBUG] - Global Configuration Validation Checks:
+2023-07-01 10:46:18,690 21332 [DEBUG] -  - Package Exit Code / Exit On Reboot = Checked
+2023-07-01 10:46:18,691 21332 [DEBUG] - System State Validation Checks:
+2023-07-01 10:46:18,691 21332 [DEBUG] -  Reboot Requirement Checks:
+2023-07-01 10:46:18,693 21332 [DEBUG] -  - Pending Computer Rename = Checked
+2023-07-01 10:46:18,694 21332 [DEBUG] -  - Pending Component Based Servicing = Checked
+2023-07-01 10:46:18,694 21332 [DEBUG] -  - Pending Windows Auto Update = Checked
+2023-07-01 10:46:18,695 21332 [DEBUG] -  - Pending File Rename Operations = Ignored
+2023-07-01 10:46:18,696 21332 [DEBUG] -  - Pending Windows Package Installer = Checked
+2023-07-01 10:46:18,697 21332 [DEBUG] -  - Pending Windows Package Installer SysWow64 = Checked
+2023-07-01 10:46:18,699 21332 [INFO ] - 2 validations performed. 2 success(es), 0 warning(s), and 0 error(s).
+2023-07-01 10:46:18,704 21332 [DEBUG] - The source 'https://community.chocolatey.org/api/v2/' evaluated to a 'normal' source type
+2023-07-01 10:46:18,705 21332 [DEBUG] - 
+NOTE: Hiding sensitive configuration data! Please double and triple
+ check to be sure no sensitive data is shown, especially if copying
+ output to a gist for review.
+2023-07-01 10:46:18,708 21332 [DEBUG] - Configuration: CommandName='list'|
+CacheLocation='C:\Users\yuta_\AppData\Local\Temp\chocolatey'|
+CommandExecutionTimeoutSeconds='2700'|WebRequestTimeoutSeconds='30'|
+Sources='https://community.chocolatey.org/api/v2/'|SourceType='normal'|
+ShowOnlineHelp='False'|Debug='False'|Verbose='False'|Trace='False'|
+Force='False'|Noop='False'|HelpRequested='False'|
+UnsuccessfulParsing='False'|RegularOutput='True'|QuietOutput='False'|
+PromptForConfirmation='True'|DisableCompatibilityChecks='False'|
+AcceptLicense='False'|AllowUnofficialBuild='False'|AllVersions='False'|
+SkipPackageInstallProvider='False'|SkipHookScripts='False'|
+Prerelease='False'|ForceX86='False'|OverrideArguments='False'|
+NotSilent='False'|ApplyPackageParametersToDependencies='False'|
+ApplyInstallArgumentsToDependencies='False'|IgnoreDependencies='False'|
+CacheExpirationInMinutes='30'|AllowDowngrade='False'|
+ForceDependencies='False'|PinPackage='False'|
+Information.PlatformType='Windows'|
+Information.PlatformVersion='10.0.22621.0'|
+Information.PlatformName='Windows 10'|
+Information.ChocolateyVersion='2.1.0.0'|
+Information.ChocolateyProductVersion='2.1.0'|
+Information.FullName='choco, Version=2.1.0.0, Culture=neutral, PublicKeyToken=79d02ea9cad655eb'|
+
+Information.Is64BitOperatingSystem='True'|
+Information.Is64BitProcess='True'|Information.IsInteractive='True'|
+Information.UserName='yuta_'|
+Information.UserDomainName='YUTA_19990617'|
+Information.IsUserAdministrator='True'|
+Information.IsUserSystemAccount='False'|
+Information.IsUserRemoteDesktop='False'|
+Information.IsUserRemote='True'|
+Information.IsProcessElevated='True'|
+Information.IsLicensedVersion='False'|
+Information.IsLicensedAssemblyLoaded='False'|
+Information.LicenseType='Foss'|
+Information.CurrentDirectory='C:\Windows\system32'|
+Features.AutoUninstaller='True'|Features.ChecksumFiles='True'|
+Features.AllowEmptyChecksums='False'|
+Features.AllowEmptyChecksumsSecure='True'|
+Features.FailOnAutoUninstaller='False'|
+Features.FailOnStandardError='False'|Features.UsePowerShellHost='True'|
+Features.LogEnvironmentValues='False'|Features.LogWithoutColor='False'|
+Features.VirusCheck='False'|
+Features.FailOnInvalidOrMissingLicense='False'|
+Features.IgnoreInvalidOptionsSwitches='True'|
+Features.UsePackageExitCodes='True'|
+Features.UseEnhancedExitCodes='False'|
+Features.UseFipsCompliantChecksums='False'|
+Features.ShowNonElevatedWarnings='True'|
+Features.ShowDownloadProgress='True'|
+Features.StopOnFirstPackageFailure='False'|
+Features.UseRememberedArgumentsForUpgrades='False'|
+Features.IgnoreUnfoundPackagesOnUpgradeOutdated='False'|
+Features.SkipPackageUpgradesWhenNotInstalled='False'|
+Features.RemovePackageInformationOnUninstall='False'|
+Features.ExitOnRebootDetected='False'|
+Features.LogValidationResultsOnWarnings='True'|
+Features.UsePackageRepositoryOptimizations='True'|
+ListCommand.LocalOnly='False'|ListCommand.IdOnly='False'|
+ListCommand.IncludeRegistryPrograms='False'|ListCommand.PageSize='25'|
+ListCommand.Exact='False'|ListCommand.ByIdOnly='False'|
+ListCommand.ByTagOnly='False'|ListCommand.IdStartsWith='False'|
+ListCommand.OrderByPopularity='False'|ListCommand.ApprovedOnly='False'|
+ListCommand.DownloadCacheAvailable='False'|
+ListCommand.NotBroken='False'|
+ListCommand.IncludeVersionOverrides='False'|
+ListCommand.ExplicitPageSize='False'|
+ListCommand.ExplicitSource='False'|
+UpgradeCommand.FailOnUnfound='False'|
+UpgradeCommand.FailOnNotInstalled='False'|
+UpgradeCommand.NotifyOnlyAvailableUpgrades='False'|
+UpgradeCommand.ExcludePrerelease='False'|
+NewCommand.AutomaticPackage='False'|
+NewCommand.UseOriginalTemplate='False'|SourceCommand.Command='unknown'|
+SourceCommand.Priority='0'|SourceCommand.BypassProxy='False'|
+SourceCommand.AllowSelfService='False'|
+SourceCommand.VisibleToAdminsOnly='False'|
+FeatureCommand.Command='unknown'|ConfigCommand.Command='Unknown'|
+ApiKeyCommand.Command='Unknown'|PinCommand.Command='Unknown'|
+OutdatedCommand.IgnorePinned='False'|
+ExportCommand.IncludeVersionNumbers='False'|Proxy.BypassOnLocal='True'|
+TemplateCommand.Command='unknown'|CacheCommand.Command='Unknown'|
+CacheCommand.RemoveExpiredItemsOnly='False'|
+2023-07-01 10:46:18,709 21332 [DEBUG] - _ Chocolatey:ChocolateyListCommand - Normal Run Mode _
+2023-07-01 10:46:18,711 21332 [DEBUG] - Searching for package information
+2023-07-01 10:46:18,714 21332 [DEBUG] - Running list with the following filter = ''
+2023-07-01 10:46:18,714 21332 [DEBUG] - --- Start of List ---
+2023-07-01 10:46:18,774 21332 [DEBUG] - Resolving resource PackageSearchResource for source C:\ProgramData\chocolatey\lib
+2023-07-01 10:46:18,896 21332 [INFO ] - chocolatey 2.1.0
+2023-07-01 10:46:18,899 21332 [DEBUG] - --- End of List ---
+2023-07-01 10:46:18,901 21332 [WARN ] - 1 packages installed.
+2023-07-01 10:46:18,906 21332 [WARN ] - 
+Did you know Pro / Business automatically syncs with Programs and
+ Features? Learn more about Package Synchronizer at
+ https://chocolatey.org/compare
+2023-07-01 10:46:18,907 21332 [DEBUG] - Sending message 'PostRunMessage' out if there are subscribers...
+2023-07-01 10:46:18,907 21332 [DEBUG] - Exiting with 0
+2023-07-01 10:49:07,895 1928 [DEBUG] - XmlConfiguration is now operational
+2023-07-01 10:49:07,918 1928 [DEBUG] - Adding new type 'CygwinService' for type 'IAlternativeSourceRunner' from assembly 'choco'
+2023-07-01 10:49:07,921 1928 [DEBUG] - Adding new type 'CygwinService' for type 'IInstallSourceRunner' from assembly 'choco'
+2023-07-01 10:49:07,923 1928 [DEBUG] - Adding new type 'PythonService' for type 'IAlternativeSourceRunner' from assembly 'choco'
+2023-07-01 10:49:07,925 1928 [DEBUG] - Adding new type 'PythonService' for type 'IListSourceRunner' from assembly 'choco'
+2023-07-01 10:49:07,925 1928 [DEBUG] - Adding new type 'PythonService' for type 'IInstallSourceRunner' from assembly 'choco'
+2023-07-01 10:49:07,926 1928 [DEBUG] - Adding new type 'PythonService' for type 'IUninstallSourceRunner' from assembly 'choco'
+2023-07-01 10:49:07,926 1928 [DEBUG] - Adding new type 'RubyGemsService' for type 'IAlternativeSourceRunner' from assembly 'choco'
+2023-07-01 10:49:07,927 1928 [DEBUG] - Adding new type 'RubyGemsService' for type 'IListSourceRunner' from assembly 'choco'
+2023-07-01 10:49:07,927 1928 [DEBUG] - Adding new type 'RubyGemsService' for type 'IInstallSourceRunner' from assembly 'choco'
+2023-07-01 10:49:07,928 1928 [DEBUG] - Adding new type 'SystemStateValidation' for type 'IValidation' from assembly 'choco'
+2023-07-01 10:49:08,071 1928 [DEBUG] - Adding new type 'EmptyOrInvalidUrlMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:49:08,074 1928 [DEBUG] - Adding new type 'FrameWorkReferencesMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:49:08,076 1928 [DEBUG] - Adding new type 'IconMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:49:08,078 1928 [DEBUG] - Adding new type 'LicenseMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:49:08,079 1928 [DEBUG] - Adding new type 'PackageTypesMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:49:08,079 1928 [DEBUG] - Adding new type 'ReadmeMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:49:08,079 1928 [DEBUG] - Adding new type 'RepositoryMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:49:08,081 1928 [DEBUG] - Adding new type 'RequireLicenseAcceptanceMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:49:08,081 1928 [DEBUG] - Adding new type 'ServicableMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:49:08,082 1928 [DEBUG] - Adding new type 'VersionMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:49:08,086 1928 [DEBUG] - Registering new command 'cache' in assembly 'choco'
+2023-07-01 10:49:08,087 1928 [DEBUG] - Registering new command 'list' in assembly 'choco'
+2023-07-01 10:49:08,087 1928 [DEBUG] - Registering new command 'template' in assembly 'choco'
+2023-07-01 10:49:08,087 1928 [DEBUG] - Registering new command 'export' in assembly 'choco'
+2023-07-01 10:49:08,087 1928 [DEBUG] - Registering new command 'info' in assembly 'choco'
+2023-07-01 10:49:08,088 1928 [DEBUG] - Registering new command 'help' in assembly 'choco'
+2023-07-01 10:49:08,088 1928 [DEBUG] - Registering new command 'config' in assembly 'choco'
+2023-07-01 10:49:08,089 1928 [DEBUG] - Registering new command 'feature' in assembly 'choco'
+2023-07-01 10:49:08,089 1928 [DEBUG] - Registering new command 'new' in assembly 'choco'
+2023-07-01 10:49:08,089 1928 [DEBUG] - Registering new command 'outdated' in assembly 'choco'
+2023-07-01 10:49:08,090 1928 [DEBUG] - Registering new command 'pack' in assembly 'choco'
+2023-07-01 10:49:08,090 1928 [DEBUG] - Registering new command 'pin' in assembly 'choco'
+2023-07-01 10:49:08,090 1928 [DEBUG] - Registering new command 'push' in assembly 'choco'
+2023-07-01 10:49:08,091 1928 [DEBUG] - Registering new command 'apikey' in assembly 'choco'
+2023-07-01 10:49:08,091 1928 [DEBUG] - Registering new command 'source' in assembly 'choco'
+2023-07-01 10:49:08,091 1928 [DEBUG] - Registering new command 'uninstall' in assembly 'choco'
+2023-07-01 10:49:08,091 1928 [DEBUG] - Registering new command 'upgrade' in assembly 'choco'
+2023-07-01 10:49:08,093 1928 [DEBUG] - Registering new command 'search' in assembly 'choco'
+2023-07-01 10:49:08,093 1928 [DEBUG] - Registering new command 'unpackself' in assembly 'choco'
+2023-07-01 10:49:08,093 1928 [DEBUG] - Registering new command 'install' in assembly 'choco'
+2023-07-01 10:49:08,133 1928 [INFO ] - ============================================================
+2023-07-01 10:49:08,337 1928 [INFO ] - Chocolatey v2.1.0
+2023-07-01 10:49:08,343 1928 [DEBUG] - Chocolatey is running on Windows v 10.0.22621.0
+2023-07-01 10:49:08,345 1928 [DEBUG] - Attempting to delete file "C:/ProgramData/chocolatey/choco.exe.old".
+2023-07-01 10:49:08,349 1928 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\choco.exe.old".
+2023-07-01 10:49:08,354 1928 [DEBUG] - Command line: "C:\ProgramData\chocolatey\choco.exe" install mkcert
+2023-07-01 10:49:08,354 1928 [DEBUG] - Received arguments: install mkcert
+2023-07-01 10:49:08,374 1928 [DEBUG] - RemovePendingPackagesTask is now ready and waiting for PreRunMessage.
+2023-07-01 10:49:08,378 1928 [DEBUG] - Sending message 'PreRunMessage' out if there are subscribers...
+2023-07-01 10:49:08,381 1928 [DEBUG] - [Pending] Removing all pending packages that should not be considered installed...
+2023-07-01 10:49:08,400 1928 [DEBUG] - Performing validation checks.
+2023-07-01 10:49:08,402 1928 [DEBUG] - Global Configuration Validation Checks:
+2023-07-01 10:49:08,403 1928 [DEBUG] -  - Package Exit Code / Exit On Reboot = Checked
+2023-07-01 10:49:08,405 1928 [DEBUG] - System State Validation Checks:
+2023-07-01 10:49:08,405 1928 [DEBUG] -  Reboot Requirement Checks:
+2023-07-01 10:49:08,406 1928 [DEBUG] -  - Pending Computer Rename = Checked
+2023-07-01 10:49:08,407 1928 [DEBUG] -  - Pending Component Based Servicing = Checked
+2023-07-01 10:49:08,407 1928 [DEBUG] -  - Pending Windows Auto Update = Checked
+2023-07-01 10:49:08,408 1928 [DEBUG] -  - Pending File Rename Operations = Ignored
+2023-07-01 10:49:08,409 1928 [DEBUG] -  - Pending Windows Package Installer = Checked
+2023-07-01 10:49:08,409 1928 [DEBUG] -  - Pending Windows Package Installer SysWow64 = Checked
+2023-07-01 10:49:08,411 1928 [INFO ] - 2 validations performed. 2 success(es), 0 warning(s), and 0 error(s).
+2023-07-01 10:49:08,417 1928 [DEBUG] - The source 'https://community.chocolatey.org/api/v2/' evaluated to a 'normal' source type
+2023-07-01 10:49:08,418 1928 [DEBUG] - 
+NOTE: Hiding sensitive configuration data! Please double and triple
+ check to be sure no sensitive data is shown, especially if copying
+ output to a gist for review.
+2023-07-01 10:49:08,421 1928 [DEBUG] - Configuration: CommandName='install'|
+CacheLocation='C:\Users\yuta_\AppData\Local\Temp\chocolatey'|
+CommandExecutionTimeoutSeconds='2700'|WebRequestTimeoutSeconds='30'|
+Sources='https://community.chocolatey.org/api/v2/'|SourceType='normal'|
+ShowOnlineHelp='False'|Debug='False'|Verbose='False'|Trace='False'|
+Force='False'|Noop='False'|HelpRequested='False'|
+UnsuccessfulParsing='False'|RegularOutput='True'|QuietOutput='False'|
+PromptForConfirmation='True'|DisableCompatibilityChecks='False'|
+AcceptLicense='False'|AllowUnofficialBuild='False'|Input='mkcert'|
+AllVersions='False'|SkipPackageInstallProvider='False'|
+SkipHookScripts='False'|PackageNames='mkcert'|Prerelease='False'|
+ForceX86='False'|OverrideArguments='False'|NotSilent='False'|
+ApplyPackageParametersToDependencies='False'|
+ApplyInstallArgumentsToDependencies='False'|IgnoreDependencies='False'|
+CacheExpirationInMinutes='30'|AllowDowngrade='False'|
+ForceDependencies='False'|PinPackage='False'|
+Information.PlatformType='Windows'|
+Information.PlatformVersion='10.0.22621.0'|
+Information.PlatformName='Windows 10'|
+Information.ChocolateyVersion='2.1.0.0'|
+Information.ChocolateyProductVersion='2.1.0'|
+Information.FullName='choco, Version=2.1.0.0, Culture=neutral, PublicKeyToken=79d02ea9cad655eb'|
+
+Information.Is64BitOperatingSystem='True'|
+Information.Is64BitProcess='True'|Information.IsInteractive='True'|
+Information.UserName='yuta_'|
+Information.UserDomainName='YUTA_19990617'|
+Information.IsUserAdministrator='True'|
+Information.IsUserSystemAccount='False'|
+Information.IsUserRemoteDesktop='False'|
+Information.IsUserRemote='True'|
+Information.IsProcessElevated='True'|
+Information.IsLicensedVersion='False'|
+Information.IsLicensedAssemblyLoaded='False'|
+Information.LicenseType='Foss'|
+Information.CurrentDirectory='C:\Windows\system32'|
+Features.AutoUninstaller='True'|Features.ChecksumFiles='True'|
+Features.AllowEmptyChecksums='False'|
+Features.AllowEmptyChecksumsSecure='True'|
+Features.FailOnAutoUninstaller='False'|
+Features.FailOnStandardError='False'|Features.UsePowerShellHost='True'|
+Features.LogEnvironmentValues='False'|Features.LogWithoutColor='False'|
+Features.VirusCheck='False'|
+Features.FailOnInvalidOrMissingLicense='False'|
+Features.IgnoreInvalidOptionsSwitches='True'|
+Features.UsePackageExitCodes='True'|
+Features.UseEnhancedExitCodes='False'|
+Features.UseFipsCompliantChecksums='False'|
+Features.ShowNonElevatedWarnings='True'|
+Features.ShowDownloadProgress='True'|
+Features.StopOnFirstPackageFailure='False'|
+Features.UseRememberedArgumentsForUpgrades='False'|
+Features.IgnoreUnfoundPackagesOnUpgradeOutdated='False'|
+Features.SkipPackageUpgradesWhenNotInstalled='False'|
+Features.RemovePackageInformationOnUninstall='False'|
+Features.ExitOnRebootDetected='False'|
+Features.LogValidationResultsOnWarnings='True'|
+Features.UsePackageRepositoryOptimizations='True'|
+ListCommand.LocalOnly='False'|ListCommand.IdOnly='False'|
+ListCommand.IncludeRegistryPrograms='False'|ListCommand.PageSize='25'|
+ListCommand.Exact='False'|ListCommand.ByIdOnly='False'|
+ListCommand.ByTagOnly='False'|ListCommand.IdStartsWith='False'|
+ListCommand.OrderByPopularity='False'|ListCommand.ApprovedOnly='False'|
+ListCommand.DownloadCacheAvailable='False'|
+ListCommand.NotBroken='False'|
+ListCommand.IncludeVersionOverrides='False'|
+ListCommand.ExplicitPageSize='False'|
+ListCommand.ExplicitSource='False'|
+UpgradeCommand.FailOnUnfound='False'|
+UpgradeCommand.FailOnNotInstalled='False'|
+UpgradeCommand.NotifyOnlyAvailableUpgrades='False'|
+UpgradeCommand.ExcludePrerelease='False'|
+NewCommand.AutomaticPackage='False'|
+NewCommand.UseOriginalTemplate='False'|SourceCommand.Command='unknown'|
+SourceCommand.Priority='0'|SourceCommand.BypassProxy='False'|
+SourceCommand.AllowSelfService='False'|
+SourceCommand.VisibleToAdminsOnly='False'|
+FeatureCommand.Command='unknown'|ConfigCommand.Command='Unknown'|
+ApiKeyCommand.Command='Unknown'|PinCommand.Command='Unknown'|
+OutdatedCommand.IgnorePinned='False'|
+ExportCommand.IncludeVersionNumbers='False'|Proxy.BypassOnLocal='True'|
+TemplateCommand.Command='unknown'|CacheCommand.Command='Unknown'|
+CacheCommand.RemoveExpiredItemsOnly='False'|
+2023-07-01 10:49:08,423 1928 [DEBUG] - _ Chocolatey:ChocolateyInstallCommand - Normal Run Mode _
+2023-07-01 10:49:08,425 1928 [INFO ] - Installing the following packages:
+2023-07-01 10:49:08,426 1928 [INFO ] - mkcert
+2023-07-01 10:49:08,427 1928 [INFO ] - By installing, you accept licenses for the packages.
+2023-07-01 10:49:08,512 1928 [DEBUG] - Running list with the following filter = ''
+2023-07-01 10:49:08,512 1928 [DEBUG] - --- Start of List ---
+2023-07-01 10:49:08,520 1928 [DEBUG] - Resolving resource PackageSearchResource for source C:\ProgramData\chocolatey\lib
+2023-07-01 10:49:08,589 1928 [DEBUG] - chocolatey 2.1.0
+2023-07-01 10:49:08,593 1928 [DEBUG] - --- End of List ---
+2023-07-01 10:49:08,598 1928 [DEBUG] - Resolving resource ListResource for source https://community.chocolatey.org/api/v2/
+2023-07-01 10:49:09,080 1928 [INFO ] - [NuGet]   GET https://community.chocolatey.org/api/v2/$metadata
+2023-07-01 10:49:09,136 1928 [INFO ] - [NuGet]   OK https://community.chocolatey.org/api/v2/$metadata 47ms
+2023-07-01 10:49:09,161 1928 [INFO ] - [NuGet]   GET https://community.chocolatey.org/api/v2/Packages()?$filter=(tolower(Id) eq 'mkcert') and IsLatestVersion&semVerLevel=2.0.0
+2023-07-01 10:49:10,001 1928 [INFO ] - [NuGet]   OK https://community.chocolatey.org/api/v2/Packages()?$filter=(tolower(Id) eq 'mkcert') and IsLatestVersion&semVerLevel=2.0.0 838ms
+2023-07-01 10:49:10,017 1928 [DEBUG] - Resolving resource DependencyInfoResource for source https://community.chocolatey.org/api/v2/
+2023-07-01 10:49:10,023 1928 [INFO ] - [NuGet]   GET https://community.chocolatey.org/api/v2/Packages(Id='mkcert',Version='1.4.4')
+2023-07-01 10:49:10,825 1928 [INFO ] - [NuGet]   OK https://community.chocolatey.org/api/v2/Packages(Id='mkcert',Version='1.4.4') 801ms
+2023-07-01 10:49:10,854 1928 [INFO ] - [NuGet] Resolving dependency information took 0 ms
+2023-07-01 10:49:10,856 1928 [DEBUG] - Resolving resource DownloadResource for source https://community.chocolatey.org/api/v2/
+2023-07-01 10:49:10,866 1928 [DEBUG] - Attempting to delete file "".
+2023-07-01 10:49:10,873 1928 [INFO ] - [NuGet]   GET https://community.chocolatey.org/api/v2/package/mkcert/1.4.4
+2023-07-01 10:49:11,902 1928 [INFO ] - [NuGet]   OK https://community.chocolatey.org/api/v2/package/mkcert/1.4.4 1029ms
+2023-07-01 10:49:11,910 1928 [INFO ] - [NuGet] Acquiring lock for the installation of mkcert 1.4.4
+2023-07-01 10:49:11,920 1928 [INFO ] - [NuGet] Acquired lock for the installation of mkcert 1.4.4
+2023-07-01 10:49:12,907 1928 [INFO ] - [NuGet] Installed mkcert 1.4.4 from https://community.chocolatey.org/api/v2/ with content hash eBgL9rhWREPiFnwtMhCncofZQ7F7W5phKs5PPIgFbtSefcYOuPI3yI5AU5jXGirhi9o8Mlhwf/8d8a0rnMSkyg==.
+2023-07-01 10:49:12,916 1928 [INFO ] - [NuGet] Adding package 'mkcert.1.4.4' to folder 'C:\ProgramData\chocolatey\lib'
+2023-07-01 10:49:12,935 1928 [INFO ] - [NuGet] Added package 'mkcert.1.4.4' to folder 'C:\ProgramData\chocolatey\lib'
+2023-07-01 10:49:12,936 1928 [DEBUG] - Attempting to delete file "C:\Users\yuta_\AppData\Local\Temp\chocolatey\ChocolateyScratch\mkcert/1.4.4\mkcert.1.4.4.nupkg".
+2023-07-01 10:49:12,938 1928 [DEBUG] - Attempting to delete file "C:\Users\yuta_\AppData\Local\Temp\chocolatey\ChocolateyScratch\mkcert/1.4.4\.nupkg.metadata".
+2023-07-01 10:49:12,938 1928 [DEBUG] - Attempting to delete file "C:\Users\yuta_\AppData\Local\Temp\chocolatey\ChocolateyScratch\mkcert/1.4.4\mkcert.1.4.4.nupkg.sha512".
+2023-07-01 10:49:12,939 1928 [INFO ] - 
+mkcert v1.4.4 [Approved]
+2023-07-01 10:49:12,950 1928 [INFO ] - mkcert package files install completed. Performing other installation steps.
+2023-07-01 10:49:13,010 1928 [DEBUG] - Capturing package files in 'C:\ProgramData\chocolatey\lib\mkcert'
+2023-07-01 10:49:13,017 1928 [DEBUG] -  Found 'C:\ProgramData\chocolatey\lib\mkcert\mkcert.nupkg'
+  with checksum 'C10E9DF7A5AB776A8FA87939234FE469'
+2023-07-01 10:49:13,017 1928 [DEBUG] -  Found 'C:\ProgramData\chocolatey\lib\mkcert\mkcert.nuspec'
+  with checksum 'F36F1A5C731C81DCEE4FA3AE3939FFBE'
+2023-07-01 10:49:13,018 1928 [DEBUG] -  Found 'C:\ProgramData\chocolatey\lib\mkcert\legal\LICENSE.txt'
+  with checksum 'FE00F5198507B76253C1A7873B3FFF38'
+2023-07-01 10:49:13,018 1928 [DEBUG] -  Found 'C:\ProgramData\chocolatey\lib\mkcert\legal\VERIFICATION.txt'
+  with checksum 'E988D272E3FCCB71AA162F1C69EB50DE'
+2023-07-01 10:49:13,027 1928 [DEBUG] -  Found 'C:\ProgramData\chocolatey\lib\mkcert\tools\mkcert.exe'
+  with checksum '8AE03FB0741D036801ADD750B5528ACD'
+2023-07-01 10:49:13,034 1928 [DEBUG] - Calling command ['"C:\ProgramData\chocolatey\tools\shimgen.exe" --path="..\\lib\mkcert\tools\mkcert.exe" --output="C:\ProgramData\chocolatey\bin\mkcert.exe"  --iconpath="C:\ProgramData\chocolatey\lib\mkcert\tools\mkcert.exe"']
+2023-07-01 10:49:13,337 1928 [DEBUG] -  [ShimGen] [WARN ] Could not extract icon from associated program. Using default. Error:
+2023-07-01 10:49:13,340 1928 [DEBUG] -  [ShimGen]   Selected Icon is invalid
+2023-07-01 10:49:13,438 1928 [DEBUG] -  [ShimGen] Microsoft (R) Visual C# Compiler version 4.8.9032.0
+2023-07-01 10:49:13,441 1928 [DEBUG] -  [ShimGen] for C# 5
+2023-07-01 10:49:13,442 1928 [DEBUG] -  [ShimGen] Copyright (C) Microsoft Corporation. All rights reserved.
+2023-07-01 10:49:13,443 1928 [DEBUG] -  [ShimGen] This compiler is provided as part of the Microsoft (R) .NET Framework, but only supports language versions up to C# 5, which is no longer the latest version. For compilers that support newer versions of the C# programming language, see http://go.microsoft.com/fwlink/?LinkID=533240
+2023-07-01 10:49:13,443 1928 [DEBUG] -  [ShimGen] ShimGen has successfully created 'C:\ProgramData\chocolatey\bin\mkcert.exe'
+2023-07-01 10:49:13,445 1928 [DEBUG] - Command ['"C:\ProgramData\chocolatey\tools\shimgen.exe" --path="..\\lib\mkcert\tools\mkcert.exe" --output="C:\ProgramData\chocolatey\bin\mkcert.exe"  --iconpath="C:\ProgramData\chocolatey\lib\mkcert\tools\mkcert.exe"'] exited with '0'
+2023-07-01 10:49:13,446 1928 [INFO ] -  ShimGen has successfully created a shim for mkcert.exe
+2023-07-01 10:49:13,446 1928 [DEBUG] -   Created: C:\ProgramData\chocolatey\bin\mkcert.exe
+  Targeting: C:\ProgramData\chocolatey\lib\mkcert\tools\mkcert.exe
+  IsGui:False
+
+2023-07-01 10:49:13,457 1928 [DEBUG] - Attempting to create directory "C:\ProgramData\chocolatey\.chocolatey".
+2023-07-01 10:49:13,461 1928 [DEBUG] - Adding 'Hidden' attribute(s) to 'C:\ProgramData\chocolatey\.chocolatey'.
+2023-07-01 10:49:13,467 1928 [DEBUG] - Attempting to create directory "C:\ProgramData\chocolatey\.chocolatey\mkcert.1.4.4".
+2023-07-01 10:49:13,471 1928 [DEBUG] - There was no original file at 'C:\ProgramData\chocolatey\.chocolatey\mkcert.1.4.4\.files'
+2023-07-01 10:49:13,473 1928 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\.chocolatey\mkcert.1.4.4\.extra".
+2023-07-01 10:49:13,473 1928 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\.chocolatey\mkcert.1.4.4\.version".
+2023-07-01 10:49:13,475 1928 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\.chocolatey\mkcert.1.4.4\.sxs".
+2023-07-01 10:49:13,475 1928 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\.chocolatey\mkcert.1.4.4\.pin".
+2023-07-01 10:49:13,476 1928 [DEBUG] - Sending message 'HandlePackageResultCompletedMessage' out if there are subscribers...
+2023-07-01 10:49:13,477 1928 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\lib\mkcert\.chocolateyPending".
+2023-07-01 10:49:13,478 1928 [INFO ] -  The install of mkcert was successful.
+2023-07-01 10:49:13,478 1928 [INFO ] -   Software installed to 'C:\ProgramData\chocolatey\lib\mkcert'
+2023-07-01 10:49:13,483 1928 [WARN ] - 
+Chocolatey installed 1/1 packages. 
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+2023-07-01 10:49:13,485 1928 [WARN ] - 
+Enjoy using Chocolatey? Explore more amazing features to take your
+experience to the next level at
+ https://chocolatey.org/compare
+2023-07-01 10:49:13,486 1928 [DEBUG] - Sending message 'PostRunMessage' out if there are subscribers...
+2023-07-01 10:49:13,487 1928 [DEBUG] - Exiting with 0
+2023-07-01 10:58:21,667 19176 [DEBUG] - XmlConfiguration is now operational
+2023-07-01 10:58:21,688 19176 [DEBUG] - Adding new type 'CygwinService' for type 'IAlternativeSourceRunner' from assembly 'choco'
+2023-07-01 10:58:21,690 19176 [DEBUG] - Adding new type 'CygwinService' for type 'IInstallSourceRunner' from assembly 'choco'
+2023-07-01 10:58:21,693 19176 [DEBUG] - Adding new type 'PythonService' for type 'IAlternativeSourceRunner' from assembly 'choco'
+2023-07-01 10:58:21,695 19176 [DEBUG] - Adding new type 'PythonService' for type 'IListSourceRunner' from assembly 'choco'
+2023-07-01 10:58:21,695 19176 [DEBUG] - Adding new type 'PythonService' for type 'IInstallSourceRunner' from assembly 'choco'
+2023-07-01 10:58:21,695 19176 [DEBUG] - Adding new type 'PythonService' for type 'IUninstallSourceRunner' from assembly 'choco'
+2023-07-01 10:58:21,695 19176 [DEBUG] - Adding new type 'RubyGemsService' for type 'IAlternativeSourceRunner' from assembly 'choco'
+2023-07-01 10:58:21,696 19176 [DEBUG] - Adding new type 'RubyGemsService' for type 'IListSourceRunner' from assembly 'choco'
+2023-07-01 10:58:21,696 19176 [DEBUG] - Adding new type 'RubyGemsService' for type 'IInstallSourceRunner' from assembly 'choco'
+2023-07-01 10:58:21,697 19176 [DEBUG] - Adding new type 'SystemStateValidation' for type 'IValidation' from assembly 'choco'
+2023-07-01 10:58:21,834 19176 [DEBUG] - Adding new type 'EmptyOrInvalidUrlMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:58:21,837 19176 [DEBUG] - Adding new type 'FrameWorkReferencesMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:58:21,840 19176 [DEBUG] - Adding new type 'IconMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:58:21,843 19176 [DEBUG] - Adding new type 'LicenseMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:58:21,843 19176 [DEBUG] - Adding new type 'PackageTypesMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:58:21,843 19176 [DEBUG] - Adding new type 'ReadmeMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:58:21,844 19176 [DEBUG] - Adding new type 'RepositoryMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:58:21,844 19176 [DEBUG] - Adding new type 'RequireLicenseAcceptanceMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:58:21,844 19176 [DEBUG] - Adding new type 'ServicableMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:58:21,845 19176 [DEBUG] - Adding new type 'VersionMetadataRule' for type 'IMetadataRule' from assembly 'choco'
+2023-07-01 10:58:21,849 19176 [DEBUG] - Registering new command 'cache' in assembly 'choco'
+2023-07-01 10:58:21,849 19176 [DEBUG] - Registering new command 'list' in assembly 'choco'
+2023-07-01 10:58:21,850 19176 [DEBUG] - Registering new command 'template' in assembly 'choco'
+2023-07-01 10:58:21,850 19176 [DEBUG] - Registering new command 'export' in assembly 'choco'
+2023-07-01 10:58:21,850 19176 [DEBUG] - Registering new command 'info' in assembly 'choco'
+2023-07-01 10:58:21,851 19176 [DEBUG] - Registering new command 'help' in assembly 'choco'
+2023-07-01 10:58:21,851 19176 [DEBUG] - Registering new command 'config' in assembly 'choco'
+2023-07-01 10:58:21,851 19176 [DEBUG] - Registering new command 'feature' in assembly 'choco'
+2023-07-01 10:58:21,851 19176 [DEBUG] - Registering new command 'new' in assembly 'choco'
+2023-07-01 10:58:21,851 19176 [DEBUG] - Registering new command 'outdated' in assembly 'choco'
+2023-07-01 10:58:21,853 19176 [DEBUG] - Registering new command 'pack' in assembly 'choco'
+2023-07-01 10:58:21,853 19176 [DEBUG] - Registering new command 'pin' in assembly 'choco'
+2023-07-01 10:58:21,853 19176 [DEBUG] - Registering new command 'push' in assembly 'choco'
+2023-07-01 10:58:21,854 19176 [DEBUG] - Registering new command 'apikey' in assembly 'choco'
+2023-07-01 10:58:21,854 19176 [DEBUG] - Registering new command 'source' in assembly 'choco'
+2023-07-01 10:58:21,854 19176 [DEBUG] - Registering new command 'uninstall' in assembly 'choco'
+2023-07-01 10:58:21,855 19176 [DEBUG] - Registering new command 'upgrade' in assembly 'choco'
+2023-07-01 10:58:21,855 19176 [DEBUG] - Registering new command 'search' in assembly 'choco'
+2023-07-01 10:58:21,855 19176 [DEBUG] - Registering new command 'unpackself' in assembly 'choco'
+2023-07-01 10:58:21,856 19176 [DEBUG] - Registering new command 'install' in assembly 'choco'
+2023-07-01 10:58:21,894 19176 [INFO ] - ============================================================
+2023-07-01 10:58:22,096 19176 [INFO ] - Chocolatey v2.1.0
+2023-07-01 10:58:22,110 19176 [DEBUG] - Chocolatey is running on Windows v 10.0.22621.0
+2023-07-01 10:58:22,113 19176 [DEBUG] - Attempting to delete file "C:/ProgramData/chocolatey/choco.exe.old".
+2023-07-01 10:58:22,116 19176 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\choco.exe.old".
+2023-07-01 10:58:22,120 19176 [DEBUG] - Command line: "C:\ProgramData\chocolatey\choco.exe" list
+2023-07-01 10:58:22,120 19176 [DEBUG] - Received arguments: list
+2023-07-01 10:58:22,139 19176 [DEBUG] - RemovePendingPackagesTask is now ready and waiting for PreRunMessage.
+2023-07-01 10:58:22,144 19176 [DEBUG] - Sending message 'PreRunMessage' out if there are subscribers...
+2023-07-01 10:58:22,146 19176 [DEBUG] - [Pending] Removing all pending packages that should not be considered installed...
+2023-07-01 10:58:22,166 19176 [DEBUG] - Performing validation checks.
+2023-07-01 10:58:22,167 19176 [DEBUG] - Global Configuration Validation Checks:
+2023-07-01 10:58:22,168 19176 [DEBUG] -  - Package Exit Code / Exit On Reboot = Checked
+2023-07-01 10:58:22,169 19176 [DEBUG] - System State Validation Checks:
+2023-07-01 10:58:22,170 19176 [DEBUG] -  Reboot Requirement Checks:
+2023-07-01 10:58:22,171 19176 [DEBUG] -  - Pending Computer Rename = Checked
+2023-07-01 10:58:22,172 19176 [DEBUG] -  - Pending Component Based Servicing = Checked
+2023-07-01 10:58:22,173 19176 [DEBUG] -  - Pending Windows Auto Update = Checked
+2023-07-01 10:58:22,173 19176 [DEBUG] -  - Pending File Rename Operations = Ignored
+2023-07-01 10:58:22,174 19176 [DEBUG] -  - Pending Windows Package Installer = Checked
+2023-07-01 10:58:22,175 19176 [DEBUG] -  - Pending Windows Package Installer SysWow64 = Checked
+2023-07-01 10:58:22,176 19176 [INFO ] - 2 validations performed. 2 success(es), 0 warning(s), and 0 error(s).
+2023-07-01 10:58:22,181 19176 [DEBUG] - The source 'https://community.chocolatey.org/api/v2/' evaluated to a 'normal' source type
+2023-07-01 10:58:22,183 19176 [DEBUG] - 
+NOTE: Hiding sensitive configuration data! Please double and triple
+ check to be sure no sensitive data is shown, especially if copying
+ output to a gist for review.
+2023-07-01 10:58:22,185 19176 [DEBUG] - Configuration: CommandName='list'|
+CacheLocation='C:\Users\yuta_\AppData\Local\Temp\chocolatey'|
+CommandExecutionTimeoutSeconds='2700'|WebRequestTimeoutSeconds='30'|
+Sources='https://community.chocolatey.org/api/v2/'|SourceType='normal'|
+ShowOnlineHelp='False'|Debug='False'|Verbose='False'|Trace='False'|
+Force='False'|Noop='False'|HelpRequested='False'|
+UnsuccessfulParsing='False'|RegularOutput='True'|QuietOutput='False'|
+PromptForConfirmation='True'|DisableCompatibilityChecks='False'|
+AcceptLicense='False'|AllowUnofficialBuild='False'|AllVersions='False'|
+SkipPackageInstallProvider='False'|SkipHookScripts='False'|
+Prerelease='False'|ForceX86='False'|OverrideArguments='False'|
+NotSilent='False'|ApplyPackageParametersToDependencies='False'|
+ApplyInstallArgumentsToDependencies='False'|IgnoreDependencies='False'|
+CacheExpirationInMinutes='30'|AllowDowngrade='False'|
+ForceDependencies='False'|PinPackage='False'|
+Information.PlatformType='Windows'|
+Information.PlatformVersion='10.0.22621.0'|
+Information.PlatformName='Windows 10'|
+Information.ChocolateyVersion='2.1.0.0'|
+Information.ChocolateyProductVersion='2.1.0'|
+Information.FullName='choco, Version=2.1.0.0, Culture=neutral, PublicKeyToken=79d02ea9cad655eb'|
+
+Information.Is64BitOperatingSystem='True'|
+Information.Is64BitProcess='True'|Information.IsInteractive='True'|
+Information.UserName='yuta_'|
+Information.UserDomainName='YUTA_19990617'|
+Information.IsUserAdministrator='True'|
+Information.IsUserSystemAccount='False'|
+Information.IsUserRemoteDesktop='False'|
+Information.IsUserRemote='True'|
+Information.IsProcessElevated='True'|
+Information.IsLicensedVersion='False'|
+Information.IsLicensedAssemblyLoaded='False'|
+Information.LicenseType='Foss'|
+Information.CurrentDirectory='C:\Windows\system32'|
+Features.AutoUninstaller='True'|Features.ChecksumFiles='True'|
+Features.AllowEmptyChecksums='False'|
+Features.AllowEmptyChecksumsSecure='True'|
+Features.FailOnAutoUninstaller='False'|
+Features.FailOnStandardError='False'|Features.UsePowerShellHost='True'|
+Features.LogEnvironmentValues='False'|Features.LogWithoutColor='False'|
+Features.VirusCheck='False'|
+Features.FailOnInvalidOrMissingLicense='False'|
+Features.IgnoreInvalidOptionsSwitches='True'|
+Features.UsePackageExitCodes='True'|
+Features.UseEnhancedExitCodes='False'|
+Features.UseFipsCompliantChecksums='False'|
+Features.ShowNonElevatedWarnings='True'|
+Features.ShowDownloadProgress='True'|
+Features.StopOnFirstPackageFailure='False'|
+Features.UseRememberedArgumentsForUpgrades='False'|
+Features.IgnoreUnfoundPackagesOnUpgradeOutdated='False'|
+Features.SkipPackageUpgradesWhenNotInstalled='False'|
+Features.RemovePackageInformationOnUninstall='False'|
+Features.ExitOnRebootDetected='False'|
+Features.LogValidationResultsOnWarnings='True'|
+Features.UsePackageRepositoryOptimizations='True'|
+ListCommand.LocalOnly='False'|ListCommand.IdOnly='False'|
+ListCommand.IncludeRegistryPrograms='False'|ListCommand.PageSize='25'|
+ListCommand.Exact='False'|ListCommand.ByIdOnly='False'|
+ListCommand.ByTagOnly='False'|ListCommand.IdStartsWith='False'|
+ListCommand.OrderByPopularity='False'|ListCommand.ApprovedOnly='False'|
+ListCommand.DownloadCacheAvailable='False'|
+ListCommand.NotBroken='False'|
+ListCommand.IncludeVersionOverrides='False'|
+ListCommand.ExplicitPageSize='False'|
+ListCommand.ExplicitSource='False'|
+UpgradeCommand.FailOnUnfound='False'|
+UpgradeCommand.FailOnNotInstalled='False'|
+UpgradeCommand.NotifyOnlyAvailableUpgrades='False'|
+UpgradeCommand.ExcludePrerelease='False'|
+NewCommand.AutomaticPackage='False'|
+NewCommand.UseOriginalTemplate='False'|SourceCommand.Command='unknown'|
+SourceCommand.Priority='0'|SourceCommand.BypassProxy='False'|
+SourceCommand.AllowSelfService='False'|
+SourceCommand.VisibleToAdminsOnly='False'|
+FeatureCommand.Command='unknown'|ConfigCommand.Command='Unknown'|
+ApiKeyCommand.Command='Unknown'|PinCommand.Command='Unknown'|
+OutdatedCommand.IgnorePinned='False'|
+ExportCommand.IncludeVersionNumbers='False'|Proxy.BypassOnLocal='True'|
+TemplateCommand.Command='unknown'|CacheCommand.Command='Unknown'|
+CacheCommand.RemoveExpiredItemsOnly='False'|
+2023-07-01 10:58:22,186 19176 [DEBUG] - _ Chocolatey:ChocolateyListCommand - Normal Run Mode _
+2023-07-01 10:58:22,189 19176 [DEBUG] - Searching for package information
+2023-07-01 10:58:22,191 19176 [DEBUG] - Running list with the following filter = ''
+2023-07-01 10:58:22,192 19176 [DEBUG] - --- Start of List ---
+2023-07-01 10:58:22,243 19176 [DEBUG] - Resolving resource PackageSearchResource for source C:\ProgramData\chocolatey\lib
+2023-07-01 10:58:22,316 19176 [INFO ] - chocolatey 2.1.0
+2023-07-01 10:58:22,333 19176 [INFO ] - mkcert 1.4.4
+2023-07-01 10:58:22,344 19176 [DEBUG] - --- End of List ---
+2023-07-01 10:58:22,348 19176 [WARN ] - 2 packages installed.
+2023-07-01 10:58:22,350 19176 [DEBUG] - Sending message 'PostRunMessage' out if there are subscribers...
+2023-07-01 10:58:22,351 19176 [DEBUG] - Exiting with 0

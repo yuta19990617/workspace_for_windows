@@ -1,0 +1,62 @@
+2023-07-01 10:43:41,891 15656 [INFO ] - ============================================================
+2023-07-01 10:43:42,111 15656 [INFO ] - 2.1.0
+2023-07-01 10:45:31,208 27956 [INFO ] - ============================================================
+2023-07-01 10:45:31,421 27956 [INFO ] - Chocolatey v2.1.0
+2023-07-01 10:45:31,487 27956 [ERROR] - Invalid argument -l. This argument has been removed from the list command and cannot be used.
+2023-07-01 10:45:31,487 27956 [ERROR] - More Details: System.ApplicationException: Invalid argument -l. This argument has been removed from the list command and cannot be used.
+   èÍèä chocolatey.infrastructure.app.commands.ChocolateyListCommand.ParseAdditionalArguments(IList`1 unparsedArguments, ChocolateyConfiguration configuration)
+   èÍèä chocolatey.infrastructure.app.runners.ConsoleApplication.<>c__DisplayClass0_1.<Run>b__5(IList`1 unparsedArgs)
+   èÍèä chocolatey.infrastructure.app.configuration.ConfigurationOptions.ParseArgumentsAndUpdateConfiguration(ICollection`1 args, ChocolateyConfiguration configuration, Action`1 setOptions, Action`1 afterParse, Action validateConfiguration, Action helpMessage)
+   èÍèä chocolatey.infrastructure.app.runners.ConsoleApplication.<>c__DisplayClass0_0.<Run>b__3(ICommand command)
+   èÍèä chocolatey.infrastructure.app.runners.GenericRunner.FindCommand(ChocolateyConfiguration config, Container container, Boolean isConsole, Action`1 parseArgs)
+   èÍèä chocolatey.infrastructure.app.runners.GenericRunner.Run(ChocolateyConfiguration config, Container container, Boolean isConsole, Action`1 parseArgs)
+   èÍèä chocolatey.infrastructure.app.runners.ConsoleApplication.Run(String[] args, ChocolateyConfiguration config, Container container)
+   èÍèä chocolatey.console.Program.Main(String[] args)
+2023-07-01 10:46:18,408 21332 [INFO ] - ============================================================
+2023-07-01 10:46:18,620 21332 [INFO ] - Chocolatey v2.1.0
+2023-07-01 10:46:18,699 21332 [INFO ] - 2 validations performed. 2 success(es), 0 warning(s), and 0 error(s).
+2023-07-01 10:46:18,896 21332 [INFO ] - chocolatey 2.1.0
+2023-07-01 10:46:18,901 21332 [WARN ] - 1 packages installed.
+2023-07-01 10:46:18,906 21332 [WARN ] - 
+Did you know Pro / Business automatically syncs with Programs and
+ Features? Learn more about Package Synchronizer at
+ https://chocolatey.org/compare
+2023-07-01 10:49:08,133 1928 [INFO ] - ============================================================
+2023-07-01 10:49:08,337 1928 [INFO ] - Chocolatey v2.1.0
+2023-07-01 10:49:08,411 1928 [INFO ] - 2 validations performed. 2 success(es), 0 warning(s), and 0 error(s).
+2023-07-01 10:49:08,425 1928 [INFO ] - Installing the following packages:
+2023-07-01 10:49:08,426 1928 [INFO ] - mkcert
+2023-07-01 10:49:08,427 1928 [INFO ] - By installing, you accept licenses for the packages.
+2023-07-01 10:49:09,080 1928 [INFO ] - [NuGet]   GET https://community.chocolatey.org/api/v2/$metadata
+2023-07-01 10:49:09,136 1928 [INFO ] - [NuGet]   OK https://community.chocolatey.org/api/v2/$metadata 47ms
+2023-07-01 10:49:09,161 1928 [INFO ] - [NuGet]   GET https://community.chocolatey.org/api/v2/Packages()?$filter=(tolower(Id) eq 'mkcert') and IsLatestVersion&semVerLevel=2.0.0
+2023-07-01 10:49:10,001 1928 [INFO ] - [NuGet]   OK https://community.chocolatey.org/api/v2/Packages()?$filter=(tolower(Id) eq 'mkcert') and IsLatestVersion&semVerLevel=2.0.0 838ms
+2023-07-01 10:49:10,023 1928 [INFO ] - [NuGet]   GET https://community.chocolatey.org/api/v2/Packages(Id='mkcert',Version='1.4.4')
+2023-07-01 10:49:10,825 1928 [INFO ] - [NuGet]   OK https://community.chocolatey.org/api/v2/Packages(Id='mkcert',Version='1.4.4') 801ms
+2023-07-01 10:49:10,854 1928 [INFO ] - [NuGet] Resolving dependency information took 0 ms
+2023-07-01 10:49:10,873 1928 [INFO ] - [NuGet]   GET https://community.chocolatey.org/api/v2/package/mkcert/1.4.4
+2023-07-01 10:49:11,902 1928 [INFO ] - [NuGet]   OK https://community.chocolatey.org/api/v2/package/mkcert/1.4.4 1029ms
+2023-07-01 10:49:11,910 1928 [INFO ] - [NuGet] Acquiring lock for the installation of mkcert 1.4.4
+2023-07-01 10:49:11,920 1928 [INFO ] - [NuGet] Acquired lock for the installation of mkcert 1.4.4
+2023-07-01 10:49:12,907 1928 [INFO ] - [NuGet] Installed mkcert 1.4.4 from https://community.chocolatey.org/api/v2/ with content hash eBgL9rhWREPiFnwtMhCncofZQ7F7W5phKs5PPIgFbtSefcYOuPI3yI5AU5jXGirhi9o8Mlhwf/8d8a0rnMSkyg==.
+2023-07-01 10:49:12,916 1928 [INFO ] - [NuGet] Adding package 'mkcert.1.4.4' to folder 'C:\ProgramData\chocolatey\lib'
+2023-07-01 10:49:12,935 1928 [INFO ] - [NuGet] Added package 'mkcert.1.4.4' to folder 'C:\ProgramData\chocolatey\lib'
+2023-07-01 10:49:12,939 1928 [INFO ] - 
+mkcert v1.4.4 [Approved]
+2023-07-01 10:49:12,950 1928 [INFO ] - mkcert package files install completed. Performing other installation steps.
+2023-07-01 10:49:13,446 1928 [INFO ] -  ShimGen has successfully created a shim for mkcert.exe
+2023-07-01 10:49:13,478 1928 [INFO ] -  The install of mkcert was successful.
+2023-07-01 10:49:13,478 1928 [INFO ] -   Software installed to 'C:\ProgramData\chocolatey\lib\mkcert'
+2023-07-01 10:49:13,483 1928 [WARN ] - 
+Chocolatey installed 1/1 packages. 
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+2023-07-01 10:49:13,485 1928 [WARN ] - 
+Enjoy using Chocolatey? Explore more amazing features to take your
+experience to the next level at
+ https://chocolatey.org/compare
+2023-07-01 10:58:21,894 19176 [INFO ] - ============================================================
+2023-07-01 10:58:22,096 19176 [INFO ] - Chocolatey v2.1.0
+2023-07-01 10:58:22,176 19176 [INFO ] - 2 validations performed. 2 success(es), 0 warning(s), and 0 error(s).
+2023-07-01 10:58:22,316 19176 [INFO ] - chocolatey 2.1.0
+2023-07-01 10:58:22,333 19176 [INFO ] - mkcert 1.4.4
+2023-07-01 10:58:22,348 19176 [WARN ] - 2 packages installed.
